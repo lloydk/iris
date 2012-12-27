@@ -1,0 +1,8 @@
+eval(File.read(File.dirname(__FILE__) + '/../common_iris_dependencies.rb'))
+
+git "git://github.com/lloydk/iris.git" do
+  gem "iris_core"
+end
+
+# Specify your gem's dependencies in iris_events.gemspec
+gemspec
